@@ -53,6 +53,8 @@ FROM duplicate_cte
 WHERE row_num > 1;
 
 
+- Creating an identical table so we can clean the data without affecting the original file - 
+
 CREATE TABLE `layoffs_staging2` (
   `company` text,
   `location` text,
