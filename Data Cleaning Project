@@ -16,6 +16,7 @@ INSERT layoffs_staging
 SELECT *
 FROM layoffs;
 
+-- Since there is no unique ID adding a row number to help identify potential duplicate records -- 
 
 SELECT *,
 ROW_NUMBER() OVER(
