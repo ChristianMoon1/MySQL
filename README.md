@@ -1,8 +1,4 @@
-# MySQL
--- Data Cleaning Project
-
-SELECT *
-FROM layoffs;
+# Data Cleaning Project
 
 -- 1. Remove duplicates 
 -- 2. Standardize the data
